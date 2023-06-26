@@ -5,6 +5,10 @@ body{
     font-size:1.15rem;
 }
 
+div{
+    background-color:rgb(69, 66, 66)
+}
+
 footer{
 background-color:rgb(69, 66, 66)
 }
