@@ -13,3 +13,7 @@ a{
     color:rgb(173, 19, 76)
 }
 
+.greylist{
+    list-style-type: square;
+}
+
