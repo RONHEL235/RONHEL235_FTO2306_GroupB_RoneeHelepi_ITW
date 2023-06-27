@@ -6,22 +6,22 @@ body{
 }
 
 div{
-    background-color:rgb(69, 66, 66)
+    background-color:rgb(69, 66, 66);
 }
 
 footer{
-background-color:rgb(69, 66, 66)
+background-color:rgb(69, 66, 66);
 }
 
 a{
-    color:rgb(173, 19, 76)
+    color:rgb(173, 19, 76);
 }
 
 .greylist{
-    list-style-type: square;
+    list-style-type:square;
 }
 
 #linksOnGrey{
-    color:rgb(115, 5, 44)
+    color:rgb(115, 5, 44);
 }
 
