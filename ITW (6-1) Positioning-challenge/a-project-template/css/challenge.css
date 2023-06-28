@@ -1,0 +1,23 @@
+/* 
+    Write CSS here to ensure that the back to top button is fixed to the 
+    bottom right hand side of the screen 
+*/
+#back-to-top {
+
+}
+
+/* Write CSS here to make navbar sticky to the top of the page */
+#navbar {
+
+}
+
+#header {
+    position: relative;
+}
+
+/* relatively position header image inside header element using CSS here */
+#header-image {
+
+  
+}
+
