@@ -6,17 +6,9 @@ body {
     margin-top: 1.5rem;
 }
 
-div {
-    background-color: rgb(69, 66, 66);
-    padding: 1rem;
-    border-radius: 0.3rem;
-}
-
 footer {
-    background-color: rgb(69, 66, 66);
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    padding-left: 2.5rem;
+    background-color: rgb(67, 68, 71);
+    padding: 2.5rem;
     border-radius: 0.3rem;
 }
 
@@ -28,33 +20,53 @@ ul {
     list-style-type: square;
 }
 
-#linksOnGrey {
-    color: rgb(115, 5, 44);
-}
-
-#imageCircle {
-    border-radius: 50%;
-}
-
-.mainMargin {    
-    margin: 2.5rem;
-}
-
-
-.headerMargin {
+.header-margin {
+    background-color: rgb(67, 68, 71);
+    padding: 2rem;
     margin-top: 2rem;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
+    border-radius: 0.3rem;
 }
 
-.navigationDiv {
+.navigation-div {
+    padding: 2rem;
+    background-color: rgb(67, 68, 71);
     width: 15%;
     margin-top: 1.5rem;
     margin-right: 1.5rem;
     margin-left: 1.5rem;
+    border-radius: 0.3rem;
 }
 
-.separateContent {
-    
+.main-margin {    
+    margin: 2.5rem;
 }
+
+#links-on-grey {
+    color: rgb(115, 5, 44);
+}
+
+#image-circle {
+    border-radius: 50%;
+}
+
+.separate-content {
+    display: flex;   
+}
+
+.separator-one {
+    flex: auto;
+}
+
+.separator-two {
+    justify-content: flex-end;
+}
+
+label {
+    width: 4.5rem;
+    display: inline-block;
+}
+
+
 

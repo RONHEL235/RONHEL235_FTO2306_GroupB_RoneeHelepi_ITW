@@ -7,7 +7,7 @@
     </head>
 
     <body>
-        <div class="headerMargin">
+        <div class="header-margin">
             <header>
                 <h1><u>RONEE HELEPI </u></h1>
             </header>
@@ -15,31 +15,31 @@
             <p>An introductory personal statement</p>
 
             <aside> 
-                <img id="imageCircle" src ="images/headerImage.jpg" width="300">
+                <img id="image-circle" src ="images/headerImage.jpg" width="300">
             </aside>
         </div>
         
-        <div class="navigationDiv">
+        <div class="navigation-div">
             <nav>
                 <p>Navigate to:</p>
                 <ul class="square" >
                     <li>
-                        <a id="linksOnGrey" href="#education">Education</a>
+                        <a id="links-on-grey" href="#education">Education</a>
                     </li>
                     <li>
-                        <a id="linksOnGrey" href="#experience">Experience</a>
+                        <a id="links-on-grey" href="#experience">Experience</a>
                     </li>
                     <li> 
-                        <a id="linksOnGrey" href="#skills">Skills</a>
+                        <a id="links-on-grey" href="#skills">Skills</a>
                     </li>
                     <li>
-                        <a id="linksOnGrey" href="#contact">Contact</a>
+                        <a id="links-on-grey" href="#contact">Contact</a>
                     </li>
                 </ul>    
             </nav>
         </div>
         
-        <main class="mainMargin">
+        <main class="main-margin">
             <section id="education">
                 <h2><u>Education</u></h2>
                 <h3><u>Qualification 1</u></h3>
@@ -71,27 +71,45 @@
                 </ul>
             </section>    
         </main>
-        <div>
-            <footer>
-                <h2 id="contact"><u>Contact</u></h2>
-                <a id="linksOnGrey" href="https://github.com/" target="_blank">GitHub</a>
-                <br/>
-                <a id="linksOnGrey" href="https://twitter.com/i/flow/login" target="_blank">Twitter</a>
-                <form>
-                    <h3>Contact Me</h3>
-                    <br>
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" placeholder="Enter name" required>
-                    <br>
-                    <label for="email">Enter Email</label>
-                    <input type="mail" id="email" placeholder="Enter Email" required>
-                    <br>
-    
-                    </br>
-                    <label for="msg">Enter Message</label>
-                    <textarea name="message" id="msg" placeholder="Enter Messsage(Optional) "></textarea>
-                </form>
-            </footer>
-        </div>    
+        <footer>
+            <div class="separate-content">
+
+                <div class="separator-one">
+                    <h2 id="contact"><u>Contact</u></h2>
+                    <a id="links-on-grey" href="https://github.com/" target="_blank">GitHub</a>
+                    <br/>
+                    <a id="links-on-grey" href="https://twitter.com/i/flow/login" target="_blank">Twitter</a>
+                </div>
+
+                <div>
+                    <form class="separator-two" action="https://formsubmit.co/mataupana10@gmail.com" method="POST">
+                        <h3><u>Contact Me</u></h3>
+                        <p><u>Rate my website</u></p>
+                        <input type="radio" name="rating" value="Great" required>
+                        <label for="rating">Great</label>
+                        <input type="radio" name="rating" value="Okay" required>
+                        <label for="rating">Okay</label>
+                        <input type="radio" name="rating" value="Poor" required>
+                        <label for="rating">Poor</label>
+                        <br>
+                        </br>
+                        <label for="name">Name</label>
+                        <input name="user_name" type="text" id="name" placeholder="Enter name" required>
+                        <br>
+                        </br>
+                        <label for="email">Email</label>
+                        <input name="user_email" type="mail" id="email" placeholder="Enter Email" required>
+                        <br>
+                        </br>
+                        <label for="msg">Feedback</label>
+                        <textarea name="user_message" id="msg" rows="3" cols="30" placeholder="Feedback(Optional) "></textarea>
+                        <br>
+                        </br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+
+            </div>    
+        </footer>
     </body>
 </html>
