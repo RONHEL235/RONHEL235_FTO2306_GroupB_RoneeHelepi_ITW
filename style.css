@@ -24,21 +24,22 @@ a {
     color: rgb(173, 19, 76);
 }
 
+ul {
+    list-style-type: square;
+}
+
 #linksOnGrey {
     color: rgb(115, 5, 44);
 }
 
 #imageCircle {
-    border-radius: 45%;
+    border-radius: 50%;
 }
 
 .mainMargin {    
     margin: 2.5rem;
 }
 
-.greylist {
-    list-style-type: square;
-}
 
 .headerMargin {
     margin-top: 2rem;
@@ -53,8 +54,7 @@ a {
     margin-left: 1.5rem;
 }
 
-.aFlex {
-    flex: 2;
+.separateContent {
+    
 }
-
 
