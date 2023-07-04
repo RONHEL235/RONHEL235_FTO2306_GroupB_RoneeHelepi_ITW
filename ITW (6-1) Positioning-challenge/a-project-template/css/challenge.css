@@ -11,7 +11,7 @@
 /* Write CSS here to make navbar sticky to the top of the page */
 #navbar {
     position: sticky;
-    top:0px;
+    top: 0px;
 }
 
 #header {
