@@ -19,6 +19,14 @@ ul {
     list-style-type: square;
 }
 
+picture {
+    margin-left: 2.05rem;
+}
+
+source {
+    border-radius: 0.3rem;
+}
+
 .header-margin {
     background: white url(images/hero4.jpg);
     background-position: center;
@@ -67,6 +75,7 @@ label {
     width: 4rem;
     display: inline-block;
 }
+
 
 
 
