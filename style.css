@@ -134,65 +134,73 @@ label {
     
     .separator-two {
         justify-content: flex-end;
-    }  
+    }
 }
 
-@media only screen and (min-width: 26rem) {
+@media only screen and (min-width: 48rem) {
     body {
         background-color: rgb(31, 28, 28);
         color: white;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 1rem; 
+        font-size: 1.15rem;
     }
-
+    
     footer {
         background-color: rgb(67, 68, 71);
-        padding: rem;
+        padding: 2.5rem;
         border-radius: 0.3rem;
-        width: 50%;
-        margin: auto;
     }
-
+    
+    a {
+        color: rgb(199, 20, 85);
+    }
+    
+    ul {
+        list-style-type: square;
+    }
+    
+    picture {
+        margin-left: 2.05rem;
+    }
+    
+    label {
+        width: 4rem;
+        display: inline-block;
+    }
+    
     .header-margin {
         background: white url(images/hero4.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         background-color: rgb(67, 68, 71);
-        padding: 9rem;
-        width: 50%;
-        margin: auto;
+        padding: 2rem;
+        margin: 2rem 1.5rem 2rem 2rem;
         border-radius: 0.3rem;
-        margin-bottom: 1rem;
     }
-
+    
     .navigation-div {
         padding: 2rem;
         background-color: rgb(67, 68, 71);
-        margin: auto;
-        width: 25%;
+        width: 15%;
+        margin: 1.5rem 1.5rem 2rem 2rem;
         border-radius: 0.3rem;
-        margin-bottom: 2rem;
     }
-
-    img {
-        width: 15rem;
-        height: 15rem;
+    
+    .main-margin {    
+        margin: 2.5rem;
     }
-
-    h1 {
-        font-size: 2.5rem;
+    
+    #links-on-grey {
+        color: rgb(120, 11, 49);
     }
-
-    .center-image {
-        margin: auto;
-        width: 41.9%;
+    
+    #image-circle {
+        border-radius: 50%;
     }
-
+    
     .separate-content {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        display: flex;   
     }
     
     .separator-one {
@@ -201,5 +209,6 @@ label {
     
     .separator-two {
         justify-content: flex-end;
-    }
+    }        
 }
+
