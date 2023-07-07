@@ -23,8 +23,9 @@ picture {
     margin-left: 2.05rem;
 }
 
-source {
-    border-radius: 0.3rem;
+label {
+    width: 4rem;
+    display: inline-block;
 }
 
 .header-margin {
@@ -32,7 +33,6 @@ source {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     background-color: rgb(67, 68, 71);
     padding: 2rem;
     margin: 2rem 1.5rem 2rem 2rem;
@@ -71,12 +71,68 @@ source {
     justify-content: flex-end;
 }
 
-label {
-    width: 4rem;
-    display: inline-block;
+@media only screen and (max-width: 26rem) {
+    body {
+        background-color: rgb(31, 28, 28);
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1rem; 
+    }
+
+    footer {
+        background-color: rgb(67, 68, 71);
+        padding: 5rem;
+        border-radius: 0.3rem;
+        width: 50%;
+        margin: auto;
+    }
+
+    .header-margin {
+        background: white url(images/hero4.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(67, 68, 71);
+        padding: 5.44rem;
+        width: 50%;
+        margin: auto;
+        border-radius: 0.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .navigation-div {
+        padding: 2rem;
+        background-color: rgb(67, 68, 71);
+        margin: auto;
+        width: 50%;
+        border-radius: 0.3rem;
+        margin-bottom: 2rem;
+    }
+
+    img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .center-image {
+        margin: auto;
+        width: 60%;
+    }
+
+    .separate-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .separator-one {
+        flex: auto;
+    }
+    
+    .separator-two {
+        justify-content: flex-end;
+    }  
 }
-
-
-
-
-
